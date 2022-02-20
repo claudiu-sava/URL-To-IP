@@ -17,5 +17,5 @@
 3. Open cmd and install Selenium: ``pip install selenium``
 4. Download the repo as a zip file and extract it
 5. Create "chromedriver" folder inside URL-To-IP folder
-6. Download the Chromedriver from [here](https://chromedriver.chromium.org/downloads) and place it in "chromedriver" folder
+6. Download the Chromedriver from [here](https://chromedriver.chromium.org/downloads) and place it inside "chromedriver" folder
 7. Open cmd and launch the script: ``python URLtoIP.py``

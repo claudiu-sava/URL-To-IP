@@ -10,7 +10,7 @@ options.add_argument('--disable-dev-shm-usage')
 
 # the chromedriver file should be placed inside /content folder
 # chromedriver options are linked to options argumend (see above)
-driver = webdriver.Chrome("/content/chromedriver", options=options) 
+driver = webdriver.Chrome("chromedriver/chromedriver.exe", options=options) 
 driver.get("https://www.python.org") # the chromedriver opens a page (random set)
 
 link = driver.current_url # link = browser url
